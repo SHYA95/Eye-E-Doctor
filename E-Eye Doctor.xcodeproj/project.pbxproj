@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AD5DED829A8F53F00F38062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DED729A8F53F00F38062 /* AppDelegate.swift */; };
+		2AD5DEDA29A8F53F00F38062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DED929A8F53F00F38062 /* SceneDelegate.swift */; };
+		2AD5DEDC29A8F53F00F38062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEDB29A8F53F00F38062 /* ViewController.swift */; };
+		2AD5DEDF29A8F53F00F38062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5DEDD29A8F53F00F38062 /* Main.storyboard */; };
+		2AD5DEE229A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEE029A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld */; };
+		2AD5DEE429A8F54100F38062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5DEE329A8F54100F38062 /* Assets.xcassets */; };
+		2AD5DEE729A8F54100F38062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5DEE529A8F54100F38062 /* LaunchScreen.storyboard */; };
+		2AD5DEF229A8F54100F38062 /* E_Eye_DoctorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEF129A8F54100F38062 /* E_Eye_DoctorTests.swift */; };
+		2AD5DEFC29A8F54100F38062 /* E_Eye_DoctorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEFB29A8F54100F38062 /* E_Eye_DoctorUITests.swift */; };
+		2AD5DEFE29A8F54100F38062 /* E_Eye_DoctorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEFD29A8F54100F38062 /* E_Eye_DoctorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD5DEEE29A8F54100F38062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD5DECC29A8F53F00F38062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD5DED329A8F53F00F38062;
+			remoteInfo = "E-Eye Doctor";
+		};
+		2AD5DEF829A8F54100F38062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AD5DECC29A8F53F00F38062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AD5DED329A8F53F00F38062;
+			remoteInfo = "E-Eye Doctor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AD5DED429A8F53F00F38062 /* E-Eye Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Eye Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5DED729A8F53F00F38062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AD5DED929A8F53F00F38062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2AD5DEDB29A8F53F00F38062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2AD5DEDE29A8F53F00F38062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AD5DEE129A8F53F00F38062 /* E_Eye_Doctor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = E_Eye_Doctor.xcdatamodel; sourceTree = "<group>"; };
+		2AD5DEE329A8F54100F38062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AD5DEE629A8F54100F38062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AD5DEE829A8F54100F38062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AD5DEED29A8F54100F38062 /* E-Eye DoctorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-Eye DoctorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5DEF129A8F54100F38062 /* E_Eye_DoctorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Eye_DoctorTests.swift; sourceTree = "<group>"; };
+		2AD5DEF729A8F54100F38062 /* E-Eye DoctorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "E-Eye DoctorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AD5DEFB29A8F54100F38062 /* E_Eye_DoctorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Eye_DoctorUITests.swift; sourceTree = "<group>"; };
+		2AD5DEFD29A8F54100F38062 /* E_Eye_DoctorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = E_Eye_DoctorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AD5DED129A8F53F00F38062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5DEEA29A8F54100F38062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5DEF429A8F54100F38062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AD5DECB29A8F53F00F38062 = {
+			isa = PBXGroup;
+			children = (
+				2AD5DED629A8F53F00F38062 /* E-Eye Doctor */,
+				2AD5DEF029A8F54100F38062 /* E-Eye DoctorTests */,
+				2AD5DEFA29A8F54100F38062 /* E-Eye DoctorUITests */,
+				2AD5DED529A8F53F00F38062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AD5DED529A8F53F00F38062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5DED429A8F53F00F38062 /* E-Eye Doctor.app */,
+				2AD5DEED29A8F54100F38062 /* E-Eye DoctorTests.xctest */,
+				2AD5DEF729A8F54100F38062 /* E-Eye DoctorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AD5DED629A8F53F00F38062 /* E-Eye Doctor */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5DED729A8F53F00F38062 /* AppDelegate.swift */,
+				2AD5DED929A8F53F00F38062 /* SceneDelegate.swift */,
+				2AD5DEDB29A8F53F00F38062 /* ViewController.swift */,
+				2AD5DEDD29A8F53F00F38062 /* Main.storyboard */,
+				2AD5DEE329A8F54100F38062 /* Assets.xcassets */,
+				2AD5DEE529A8F54100F38062 /* LaunchScreen.storyboard */,
+				2AD5DEE829A8F54100F38062 /* Info.plist */,
+				2AD5DEE029A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld */,
+			);
+			path = "E-Eye Doctor";
+			sourceTree = "<group>";
+		};
+		2AD5DEF029A8F54100F38062 /* E-Eye DoctorTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5DEF129A8F54100F38062 /* E_Eye_DoctorTests.swift */,
+			);
+			path = "E-Eye DoctorTests";
+			sourceTree = "<group>";
+		};
+		2AD5DEFA29A8F54100F38062 /* E-Eye DoctorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AD5DEFB29A8F54100F38062 /* E_Eye_DoctorUITests.swift */,
+				2AD5DEFD29A8F54100F38062 /* E_Eye_DoctorUITestsLaunchTests.swift */,
+			);
+			path = "E-Eye DoctorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AD5DED329A8F53F00F38062 /* E-Eye Doctor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD5DF0129A8F54100F38062 /* Build configuration list for PBXNativeTarget "E-Eye Doctor" */;
+			buildPhases = (
+				2AD5DED029A8F53F00F38062 /* Sources */,
+				2AD5DED129A8F53F00F38062 /* Frameworks */,
+				2AD5DED229A8F53F00F38062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "E-Eye Doctor";
+			productName = "E-Eye Doctor";
+			productReference = 2AD5DED429A8F53F00F38062 /* E-Eye Doctor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AD5DEEC29A8F54100F38062 /* E-Eye DoctorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD5DF0429A8F54100F38062 /* Build configuration list for PBXNativeTarget "E-Eye DoctorTests" */;
+			buildPhases = (
+				2AD5DEE929A8F54100F38062 /* Sources */,
+				2AD5DEEA29A8F54100F38062 /* Frameworks */,
+				2AD5DEEB29A8F54100F38062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD5DEEF29A8F54100F38062 /* PBXTargetDependency */,
+			);
+			name = "E-Eye DoctorTests";
+			productName = "E-Eye DoctorTests";
+			productReference = 2AD5DEED29A8F54100F38062 /* E-Eye DoctorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AD5DEF629A8F54100F38062 /* E-Eye DoctorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD5DF0729A8F54100F38062 /* Build configuration list for PBXNativeTarget "E-Eye DoctorUITests" */;
+			buildPhases = (
+				2AD5DEF329A8F54100F38062 /* Sources */,
+				2AD5DEF429A8F54100F38062 /* Frameworks */,
+				2AD5DEF529A8F54100F38062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AD5DEF929A8F54100F38062 /* PBXTargetDependency */,
+			);
+			name = "E-Eye DoctorUITests";
+			productName = "E-Eye DoctorUITests";
+			productReference = 2AD5DEF729A8F54100F38062 /* E-Eye DoctorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AD5DECC29A8F53F00F38062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					2AD5DED329A8F53F00F38062 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2AD5DEEC29A8F54100F38062 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2AD5DED329A8F53F00F38062;
+					};
+					2AD5DEF629A8F54100F38062 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 2AD5DED329A8F53F00F38062;
+					};
+				};
+			};
+			buildConfigurationList = 2AD5DECF29A8F53F00F38062 /* Build configuration list for PBXProject "E-Eye Doctor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AD5DECB29A8F53F00F38062;
+			productRefGroup = 2AD5DED529A8F53F00F38062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AD5DED329A8F53F00F38062 /* E-Eye Doctor */,
+				2AD5DEEC29A8F54100F38062 /* E-Eye DoctorTests */,
+				2AD5DEF629A8F54100F38062 /* E-Eye DoctorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AD5DED229A8F53F00F38062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD5DEE729A8F54100F38062 /* LaunchScreen.storyboard in Resources */,
+				2AD5DEE429A8F54100F38062 /* Assets.xcassets in Resources */,
+				2AD5DEDF29A8F53F00F38062 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5DEEB29A8F54100F38062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5DEF529A8F54100F38062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AD5DED029A8F53F00F38062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD5DEDC29A8F53F00F38062 /* ViewController.swift in Sources */,
+				2AD5DED829A8F53F00F38062 /* AppDelegate.swift in Sources */,
+				2AD5DEE229A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld in Sources */,
+				2AD5DEDA29A8F53F00F38062 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5DEE929A8F54100F38062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD5DEF229A8F54100F38062 /* E_Eye_DoctorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AD5DEF329A8F54100F38062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AD5DEFC29A8F54100F38062 /* E_Eye_DoctorUITests.swift in Sources */,
+				2AD5DEFE29A8F54100F38062 /* E_Eye_DoctorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AD5DEEF29A8F54100F38062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD5DED329A8F53F00F38062 /* E-Eye Doctor */;
+			targetProxy = 2AD5DEEE29A8F54100F38062 /* PBXContainerItemProxy */;
+		};
+		2AD5DEF929A8F54100F38062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AD5DED329A8F53F00F38062 /* E-Eye Doctor */;
+			targetProxy = 2AD5DEF829A8F54100F38062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2AD5DEDD29A8F53F00F38062 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD5DEDE29A8F53F00F38062 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AD5DEE529A8F54100F38062 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AD5DEE629A8F54100F38062 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AD5DEFF29A8F54100F38062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2AD5DF0029A8F54100F38062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AD5DF0229A8F54100F38062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Eye Doctor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SHYA.E-Eye-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AD5DF0329A8F54100F38062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "E-Eye Doctor/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SHYA.E-Eye-Doctor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2AD5DF0529A8F54100F38062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SHYA.E-Eye-DoctorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Eye Doctor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/E-Eye Doctor";
+			};
+			name = Debug;
+		};
+		2AD5DF0629A8F54100F38062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SHYA.E-Eye-DoctorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/E-Eye Doctor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/E-Eye Doctor";
+			};
+			name = Release;
+		};
+		2AD5DF0829A8F54100F38062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SHYA.E-Eye-DoctorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-Eye Doctor";
+			};
+			name = Debug;
+		};
+		2AD5DF0929A8F54100F38062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "SHYA.E-Eye-DoctorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "E-Eye Doctor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD5DECF29A8F53F00F38062 /* Build configuration list for PBXProject "E-Eye Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5DEFF29A8F54100F38062 /* Debug */,
+				2AD5DF0029A8F54100F38062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD5DF0129A8F54100F38062 /* Build configuration list for PBXNativeTarget "E-Eye Doctor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5DF0229A8F54100F38062 /* Debug */,
+				2AD5DF0329A8F54100F38062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD5DF0429A8F54100F38062 /* Build configuration list for PBXNativeTarget "E-Eye DoctorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5DF0529A8F54100F38062 /* Debug */,
+				2AD5DF0629A8F54100F38062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AD5DF0729A8F54100F38062 /* Build configuration list for PBXNativeTarget "E-Eye DoctorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AD5DF0829A8F54100F38062 /* Debug */,
+				2AD5DF0929A8F54100F38062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2AD5DEE029A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2AD5DEE129A8F53F00F38062 /* E_Eye_Doctor.xcdatamodel */,
+			);
+			currentVersion = 2AD5DEE129A8F53F00F38062 /* E_Eye_Doctor.xcdatamodel */;
+			path = E_Eye_Doctor.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2AD5DECC29A8F53F00F38062 /* Project object */;
+}
