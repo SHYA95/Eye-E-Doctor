@@ -37,7 +37,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         Scanbutton.translatesAutoresizingMaskIntoConstraints = false
         Scanbutton.backgroundColor = UIColor(red: 83/255, green: 180/255, blue: 182/255, alpha: 1)
         Scanbutton.setTitle("Scan Your Eye", for: .normal)
-        Scanbutton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 24)
+        Scanbutton.titleLabel?.font = UIFont.boldSystemFont(ofSize: 20)
         Scanbutton.layer.cornerRadius = 15
         view.addSubview(Scanbutton)
         

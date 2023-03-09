@@ -7,7 +7,7 @@
 
 import UIKit
 
-class buttonUiView: UIView {
+class InstViewController: UIView {
 
     // give how to make button lead to onother page view controller
     

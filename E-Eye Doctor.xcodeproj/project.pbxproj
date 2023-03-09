@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1251D729BA54CA00C9C3A7 /* InstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1251D629BA54CA00C9C3A7 /* InstViewController.swift */; };
+		2A1251D929BA670D00C9C3A7 /* UploadphotoViewConroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1251D829BA670D00C9C3A7 /* UploadphotoViewConroller.swift */; };
+		2A1251DB29BA674400C9C3A7 /* TakephotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1251DA29BA674400C9C3A7 /* TakephotoViewController.swift */; };
 		2A44BBD129B3574500719AF5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBCD29B3574500719AF5 /* SearchViewController.swift */; };
 		2A44BBD229B3574500719AF5 /* EyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBCE29B3574500719AF5 /* EyeViewController.swift */; };
 		2A44BBD329B3574500719AF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBCF29B3574500719AF5 /* HomeViewController.swift */; };
@@ -14,7 +17,6 @@
 		2A44BBD929B3584300719AF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBD729B3584300719AF5 /* SceneDelegate.swift */; };
 		2A44BBDD29B358F500719AF5 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBDB29B358F500719AF5 /* CollectionViewTableViewCell.swift */; };
 		2A44BBDF29B359B600719AF5 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBDE29B359B600719AF5 /* MainTabBarViewController.swift */; };
-		2AAB1F7329B658A800CD381F /* buttonUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB1F7229B658A800CD381F /* buttonUiView.swift */; };
 		2AC0AFBB29B631790048FFB7 /* EyeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0AFBA29B631790048FFB7 /* EyeScanningViewController.swift */; };
 		2AC0AFBD29B634050048FFB7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0AFBC29B634050048FFB7 /* ProfileViewController.swift */; };
 		2AD5DEE229A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEE029A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld */; };
@@ -43,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1251D629BA54CA00C9C3A7 /* InstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstViewController.swift; sourceTree = "<group>"; };
+		2A1251D829BA670D00C9C3A7 /* UploadphotoViewConroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadphotoViewConroller.swift; sourceTree = "<group>"; };
+		2A1251DA29BA674400C9C3A7 /* TakephotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakephotoViewController.swift; sourceTree = "<group>"; };
 		2A44BBCD29B3574500719AF5 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		2A44BBCE29B3574500719AF5 /* EyeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeViewController.swift; sourceTree = "<group>"; };
 		2A44BBCF29B3574500719AF5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +55,6 @@
 		2A44BBD729B3584300719AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Controllers/SceneDelegate.swift; sourceTree = "<group>"; };
 		2A44BBDB29B358F500719AF5 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		2A44BBDE29B359B600719AF5 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
-		2AAB1F7229B658A800CD381F /* buttonUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonUiView.swift; sourceTree = "<group>"; };
 		2AC0AFBA29B631790048FFB7 /* EyeScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeScanningViewController.swift; sourceTree = "<group>"; };
 		2AC0AFBC29B634050048FFB7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2AD5DED429A8F53F00F38062 /* E-Eye Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Eye Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				2A44BBDB29B358F500719AF5 /* CollectionViewTableViewCell.swift */,
-				2AAB1F7229B658A800CD381F /* buttonUiView.swift */,
+				2A1251D629BA54CA00C9C3A7 /* InstViewController.swift */,
+				2A1251D829BA670D00C9C3A7 /* UploadphotoViewConroller.swift */,
+				2A1251DA29BA674400C9C3A7 /* TakephotoViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -328,13 +334,15 @@
 			files = (
 				2A44BBD829B3584300719AF5 /* AppDelegate.swift in Sources */,
 				2A44BBD929B3584300719AF5 /* SceneDelegate.swift in Sources */,
+				2A1251DB29BA674400C9C3A7 /* TakephotoViewController.swift in Sources */,
 				2A44BBD129B3574500719AF5 /* SearchViewController.swift in Sources */,
+				2A1251D929BA670D00C9C3A7 /* UploadphotoViewConroller.swift in Sources */,
 				2AC0AFBB29B631790048FFB7 /* EyeScanningViewController.swift in Sources */,
 				2AC0AFBD29B634050048FFB7 /* ProfileViewController.swift in Sources */,
 				2A44BBDF29B359B600719AF5 /* MainTabBarViewController.swift in Sources */,
 				2A44BBDD29B358F500719AF5 /* CollectionViewTableViewCell.swift in Sources */,
+				2A1251D729BA54CA00C9C3A7 /* InstViewController.swift in Sources */,
 				2AD5DEE229A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld in Sources */,
-				2AAB1F7329B658A800CD381F /* buttonUiView.swift in Sources */,
 				2A44BBD229B3574500719AF5 /* EyeViewController.swift in Sources */,
 				2A44BBD329B3574500719AF5 /* HomeViewController.swift in Sources */,
 			);
