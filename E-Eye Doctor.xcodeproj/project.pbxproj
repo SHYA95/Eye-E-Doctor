@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2AD5DED829A8F53F00F38062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DED729A8F53F00F38062 /* AppDelegate.swift */; };
-		2AD5DEDA29A8F53F00F38062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DED929A8F53F00F38062 /* SceneDelegate.swift */; };
-		2AD5DEDC29A8F53F00F38062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEDB29A8F53F00F38062 /* ViewController.swift */; };
+		2A44BBD129B3574500719AF5 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBCD29B3574500719AF5 /* SearchViewController.swift */; };
+		2A44BBD229B3574500719AF5 /* EyeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBCE29B3574500719AF5 /* EyeViewController.swift */; };
+		2A44BBD329B3574500719AF5 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBCF29B3574500719AF5 /* HomeViewController.swift */; };
+		2A44BBD829B3584300719AF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBD629B3584300719AF5 /* AppDelegate.swift */; };
+		2A44BBD929B3584300719AF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBD729B3584300719AF5 /* SceneDelegate.swift */; };
+		2A44BBDD29B358F500719AF5 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBDB29B358F500719AF5 /* CollectionViewTableViewCell.swift */; };
+		2A44BBDF29B359B600719AF5 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A44BBDE29B359B600719AF5 /* MainTabBarViewController.swift */; };
+		2AAB1F7329B658A800CD381F /* buttonUiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AAB1F7229B658A800CD381F /* buttonUiView.swift */; };
+		2AC0AFBB29B631790048FFB7 /* EyeScanningViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0AFBA29B631790048FFB7 /* EyeScanningViewController.swift */; };
+		2AC0AFBD29B634050048FFB7 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AC0AFBC29B634050048FFB7 /* ProfileViewController.swift */; };
 		2AD5DEE229A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2AD5DEE029A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld */; };
 		2AD5DEE429A8F54100F38062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5DEE329A8F54100F38062 /* Assets.xcassets */; };
 		2AD5DEE729A8F54100F38062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AD5DEE529A8F54100F38062 /* LaunchScreen.storyboard */; };
@@ -36,10 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A44BBCD29B3574500719AF5 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		2A44BBCE29B3574500719AF5 /* EyeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EyeViewController.swift; sourceTree = "<group>"; };
+		2A44BBCF29B3574500719AF5 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2A44BBD629B3584300719AF5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Controllers/AppDelegate.swift; sourceTree = "<group>"; };
+		2A44BBD729B3584300719AF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = Controllers/SceneDelegate.swift; sourceTree = "<group>"; };
+		2A44BBDB29B358F500719AF5 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		2A44BBDE29B359B600719AF5 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		2AAB1F7229B658A800CD381F /* buttonUiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buttonUiView.swift; sourceTree = "<group>"; };
+		2AC0AFBA29B631790048FFB7 /* EyeScanningViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeScanningViewController.swift; sourceTree = "<group>"; };
+		2AC0AFBC29B634050048FFB7 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		2AD5DED429A8F53F00F38062 /* E-Eye Doctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "E-Eye Doctor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2AD5DED729A8F53F00F38062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2AD5DED929A8F53F00F38062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2AD5DEDB29A8F53F00F38062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2AD5DEE129A8F53F00F38062 /* E_Eye_Doctor.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = E_Eye_Doctor.xcdatamodel; sourceTree = "<group>"; };
 		2AD5DEE329A8F54100F38062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AD5DEE629A8F54100F38062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -76,6 +90,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A44BB9F29B3564C00719AF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2A44BBA029B3565D00719AF5 /* Mangers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mangers;
+			sourceTree = "<group>";
+		};
+		2A44BBCA29B3570500719AF5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2A44BBDB29B358F500719AF5 /* CollectionViewTableViewCell.swift */,
+				2AAB1F7229B658A800CD381F /* buttonUiView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A44BBCB29B3571900719AF5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2A44BBCC29B3574500719AF5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2A44BBDE29B359B600719AF5 /* MainTabBarViewController.swift */,
+				2AC0AFBA29B631790048FFB7 /* EyeScanningViewController.swift */,
+				2A44BBCD29B3574500719AF5 /* SearchViewController.swift */,
+				2A44BBCE29B3574500719AF5 /* EyeViewController.swift */,
+				2A44BBCF29B3574500719AF5 /* HomeViewController.swift */,
+				2AC0AFBC29B634050048FFB7 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2A44BBD529B3580800719AF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		2AD5DECB29A8F53F00F38062 = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +163,14 @@
 		2AD5DED629A8F53F00F38062 /* E-Eye Doctor */ = {
 			isa = PBXGroup;
 			children = (
-				2AD5DED729A8F53F00F38062 /* AppDelegate.swift */,
-				2AD5DED929A8F53F00F38062 /* SceneDelegate.swift */,
-				2AD5DEDB29A8F53F00F38062 /* ViewController.swift */,
+				2A44BB9F29B3564C00719AF5 /* Resources */,
+				2A44BBA029B3565D00719AF5 /* Mangers */,
+				2A44BBCB29B3571900719AF5 /* ViewModels */,
+				2A44BBCA29B3570500719AF5 /* Views */,
+				2A44BBD529B3580800719AF5 /* Models */,
+				2A44BBCC29B3574500719AF5 /* Controllers */,
+				2A44BBD629B3584300719AF5 /* AppDelegate.swift */,
+				2A44BBD729B3584300719AF5 /* SceneDelegate.swift */,
 				2AD5DEE329A8F54100F38062 /* Assets.xcassets */,
 				2AD5DEE529A8F54100F38062 /* LaunchScreen.storyboard */,
 				2AD5DEE829A8F54100F38062 /* Info.plist */,
@@ -257,10 +326,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AD5DEDC29A8F53F00F38062 /* ViewController.swift in Sources */,
-				2AD5DED829A8F53F00F38062 /* AppDelegate.swift in Sources */,
+				2A44BBD829B3584300719AF5 /* AppDelegate.swift in Sources */,
+				2A44BBD929B3584300719AF5 /* SceneDelegate.swift in Sources */,
+				2A44BBD129B3574500719AF5 /* SearchViewController.swift in Sources */,
+				2AC0AFBB29B631790048FFB7 /* EyeScanningViewController.swift in Sources */,
+				2AC0AFBD29B634050048FFB7 /* ProfileViewController.swift in Sources */,
+				2A44BBDF29B359B600719AF5 /* MainTabBarViewController.swift in Sources */,
+				2A44BBDD29B358F500719AF5 /* CollectionViewTableViewCell.swift in Sources */,
 				2AD5DEE229A8F53F00F38062 /* E_Eye_Doctor.xcdatamodeld in Sources */,
-				2AD5DEDA29A8F53F00F38062 /* SceneDelegate.swift in Sources */,
+				2AAB1F7329B658A800CD381F /* buttonUiView.swift in Sources */,
+				2A44BBD229B3574500719AF5 /* EyeViewController.swift in Sources */,
+				2A44BBD329B3574500719AF5 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,6 +434,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_FLATTEN_NIBS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -412,6 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IBSC_FLATTEN_NIBS = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -433,7 +511,6 @@
 				INFOPLIST_FILE = "E-Eye Doctor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -461,7 +538,6 @@
 				INFOPLIST_FILE = "E-Eye Doctor/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
